@@ -1,0 +1,59 @@
+\input opmac
+\nonstopmode
+\nopagenumbers
+\typosize[13/17]
+
+\vskip-1.0cm
+\centerline{
+\picw=0.20\hsize
+\inspic{../statutes/cophi-logo.pdf}
+}
+\vfill
+
+\centerline{\titfont $month $year}
+
+\vfill
+
+\centerline{``$quote_text''}
+
+\centerline{---$quote_author}
+
+\vfill
+
+\begitems
+* This sheet is used to account for the coffee. Please tally by your e-mail
+  address for each 250\,ml serving you take away.
+* A reminder will be sent to the mailing-list to pay for the coffee each month.
+  Please subscribe to the mailing-list at {\tt http://lists.cophi.cz}.
+* We're working on a better accounting scheme.
+\enditems
+
+\vfill
+
+\centerline{\table{|p{8.2cm}|p{7cm}|}{
+	\crl
+	\hfill{\bf E-mail}\hfill& \hfill{\bf Unary counter}\hfill\crl
+	& \crl
+	& \crl
+	& \crl
+	& \crl
+	& \crl
+	& \crl
+	& \crl
+	& \crl
+	& \crl
+	& \crl
+	& \crl
+	& \crl
+	& \crl
+	& \crl
+	& \crl
+	& \crl
+	& \crl
+	& \crl
+	& \crl
+}}
+
+\vfill
+
+\bye
